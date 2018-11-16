@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
 	s.source = { :git => 'https://github.com/sindresorhus/Preferences.git', :tag => "v#{s.version}" }
 	s.source_files = 'Sources/**/*.swift'
 	s.swift_version = '4.2'
-	s.platform = :macos, '10.12'
+	s.platform = :macos, '10.11'
 end
